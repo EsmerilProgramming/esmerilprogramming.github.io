@@ -14,3 +14,11 @@ permalink: /blog/:year/:month/:day/:title
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
+collections:
+  projects:
+    output: true;
+    permalink: /project/:path/
+  programmers:
+    output: true;
+    permalink: /programmers/:path/
+
